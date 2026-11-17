@@ -1,0 +1,6 @@
+## Interface: 16001
+## Title: SlowMootion
+## Notes: Autocatically removes the Plainsrunning buff as soon as possible.
+## IconTexture: Interface\Icons\Ability_BullRush
+## Version: 0.1
+SlowMootion.lua
