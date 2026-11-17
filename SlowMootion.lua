@@ -1,5 +1,6 @@
 local unwanted_buffs = {
-    ["Plainsrunning"] = true
+    ["Plainsrunning"] = true,
+    ["Warchief's Blessing"] = true
 }
 
 local test_mode = true
