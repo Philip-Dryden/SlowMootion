@@ -1,4 +1,5 @@
 local unwanted_buff = "Plainsrunning"
+local test_mode = true
 
 print("SlowMootion loaded")
 
@@ -6,7 +7,9 @@ print("SlowMootion loaded")
 local function remove_buff(buff_name, auraInstanceID)
     if not UnitAffectingCombat("player") then
         C_UnitAuras.CancelAuraByInstanceID("player", auraInstanceID)
-        print(buff_name, "remooved!") -- test code
+        if test_mode then
+            print(buff_name, "remooved!") -- test code
+        end
     end
 end
 
